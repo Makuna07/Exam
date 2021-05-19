@@ -1,3 +1,4 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 *{
     margin:0;
     padding: 0;
@@ -11,26 +12,8 @@
     color: white;
     font-size: 24px;
     max-width: 1200px;
-    width: 20%;
+    width: 66%;
     padding: 20px 0 80px 20px;
-}
-.burg{
-    width: 30px;
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    padding-bottom: 1px;
-    left:13%;
-    margin-top: 30px;
-}
-.burger .burg:nth-child(1) {
-    top: 0; }
-.burger .burg:nth-child(2) {
-    top: 1%; }
-.burger .burg:nth-child(3) {
-    top: 2%; }
-.burg:hover{
-    color: thistle;
 }
 .sidebar{
     width: 250px;
@@ -39,10 +22,16 @@
     background: #1b1b1b;
     display: block;
 }
-.side{
-    width: 24px;
-    height: 24px;
-    margin-right: 15px;
+.burger {
+    display: flex;
+}
+.burger-icon {
+    justify-content: space-between;
+    margin-top:25px;
+   
+}
+.burger-icon > a {
+    color: white;
 }
 .bar{
     list-style-type: none;
@@ -61,6 +50,9 @@ li a{
     border-radius: 10px;
     padding: 0;
 }
+.fi-rr-home, .fa-compass, .fi-rr-folder, .fi-rr-star, .fi-rr-subtitles {
+    margin-right: 10px;
+}
 .foll{
     font-size: 12px;
     color: white;
@@ -76,7 +68,7 @@ li a{
 }
 .load{
     font-size: 14px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-bottom: 80px;
 }
 .load a{
@@ -123,9 +115,15 @@ input:focus, textarea:focus, select:focus{
     width: 40%;
     margin-top: 20px;
 }
-.menu a{
+.button1{
     text-decoration: none;
     color: #FF2288;
+}
+.menu a{
+    text-decoration: none;
+}
+.bell, .sms, .fa-user{
+    margin-top: 20px;
 }
 .button{
     background-color: #FF2288;
@@ -143,20 +141,6 @@ input:focus, textarea:focus, select:focus{
     margin: 0 auto;
     margin-left: -2px;
 }
-.bb{
-    width: 70px;
-}
-.ellipse2{
-    width: 24px;
-    height: 24px;
-}
-.ellipse1{
-    width: 20px;
-    height: 20px;
-}
-.ellipse1, .ellipse2{
-    margin-top: 17px;
-}
 .button1{
     list-style: none;
     margin-top: 17px;
@@ -166,12 +150,14 @@ input:focus, textarea:focus, select:focus{
     height: 56px;
 }
 
-/* body */
+/* start body */
 .left{
-    width: 20%;
+    width: 18%;
+
 }
 .right{
-    width: 80%;
+    width: 82%;
+    box-sizing: border-box;
 }
 .container {
     display: flex;
@@ -219,16 +205,16 @@ input:focus, textarea:focus, select:focus{
     justify-content: space-between;
     width: 7%;
     margin-top: 35px;
-    border: 2px solid #D8D8D8;
+    border: 2px solid #d8d8d8;
     border-radius: 15px;
     align-items: center;
     padding: 10px;
 }
 .filter:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(135, 172, 241);
 }
-.fff{
-    margin-top: 5px;
+.fi-rr-settings-sliders{
+    margin: 0 10px 0 5px;
 }
 .filterend{
     font-size: 16px;
@@ -241,19 +227,16 @@ input:focus, textarea:focus, select:focus{
 .firstline, .secondline{
     display: flex;
     justify-content: space-between;
-    margin-right: 0;
+    margin-right: 25px;
     flex-wrap: wrap;
     width: 100%;
 }
-.firstline img, .secondline img{
-    width: 289px;
-    height: 210px;
-}
 .firstline{
     margin-bottom:20px ;
+    margin-top: 40px;
 }
 .firstline img:hover{
-    width: 250px;
+    width:250px;
     height: 180px;
 }
 .secondline img:hover{
@@ -283,15 +266,20 @@ section p{
 .box{
     background-color: #FAFAFA;
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 55px;
+}
+.boxes{
+    padding-left: 35px;
 }
 .box1{
-    margin: 120px 0 100px 0;
+    margin: 75px 0 90px 0;
     font-size: 16px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     padding-top: 100px;
+    padding-left: 35px;
+    padding: 100px 0 0 35px;
 }
 .box img{
     width: 132px;
@@ -345,13 +333,57 @@ h4{
     border-radius: 15px;
     padding: 10px;
 }
-/* start footer */
+/* body sacond page */
+/* .second-page{
+    box-sizing: border-box;
+} */
 
-.boxes a{
+.second-menu a{
+    color: black;
+    font-size: 18px;
+}
+.second-menu li{
+    list-style: none;
+
+}
+.second-menu2 a{
+    color: black;
+    font-size: 16px;
+}
+.second-menu2 li{
+    list-style: none;
+}
+.second-menu >ul{
+    display: inline-flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 40px;
+    text-align: center;
+    padding: 80px 0 20px 0;
+}
+.second-menu2 >ul{
+    display: inline-flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 40px;
+    text-align: center;
+    padding:15px 0 15px 0;
+}
+.line3{
+    width: 76%;
+    margin-left: 105px;
+    color: #E7E7E7;
+}
+/* start footer */
+footer{
+    margin-top: 100px;
+}
+
+.boxes1 a{
     text-decoration: none;
     color: black;
 }
-.boxes{
+.boxes1{
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
