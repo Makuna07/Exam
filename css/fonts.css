@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'AvenirHeavy';
+    src: url("../fonts/AvenirLTPro-Heavy.eot"),
+    url("../fonts/AvenirLTPro-Heavy.ttf") format("ttf"), 
+    url("../fonts/AvenirLTPro-Heavy.woff2") format("woff2"),
+    url("../fonts/AvenirLTPro-Heavy.woff") format("woff"), 
+}
+  
+  @font-face {
+    font-family: 'AvenirBook';
+    src: url("../fonts/AvenirLTPro-Book.eot");
+    src: url("../fonts/AvenirLTPro-Book.ttf") format("ttf"),
+     url("../fonts/AvenirLTPro-Book.woff2") format("woff2"), 
+     url("../fonts/AvenirLTPro-Book.woff") format("woff"),
+    }
+  
+  @font-face {
+    font-family: 'AvenirBlack';
+    src: url("../fonts/AvenirLTPro-Black.eot");
+    src: url("../fonts/AvenirLTPro-Black.ttft") format("ttf"),
+     url("../fonts/AvenirLTPro-Black.woff2") format("woff2"), 
+     url("../fonts/AvenirLTPro-Black.woff") format("woff"), 
+
+    }
+  
+  @font-face {
+    font-family: 'AvenirMedium';
+    src: url("../fonts/AvenirLTPro-Medium.eot");
+    src: url("../fonts/AvenirLTPro-Medium.tff") format("ttf"),
+     url("../fonts/AvenirLTPro-Medium.woff2") format("woff2"), 
+     url("../fonts/AvenirLTPro-Medium.woff") format("woff"),
+
+     }
